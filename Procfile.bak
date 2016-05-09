@@ -1,1 +1,2 @@
-#web: geth --etherbase '0x0212aaBBD371b67FD41D96b9849De3A6a4970f8b' --mine 2>> geth.log
+web: geth --rpc --rpcaddr "pool-ethminers-net.herokuapp.com" --rpcport "8545" --rpccorsdomain eth-eu-ethminers-net.herokuapp.com
+worker: geth --fast
