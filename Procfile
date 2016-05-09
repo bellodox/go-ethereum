@@ -1,1 +1,1 @@
-worker: geth --mine
+web: geth --mine
