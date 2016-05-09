@@ -1,2 +1,2 @@
-web: geth --rpc --rpcaddr "pool-ethminers-net.herokuapp.com" --rpcport "8545" --rpccorsdomain eth-eu-ethminers-net.herokuapp.com
+web: geth --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain localhost
 worker: geth --fast
